@@ -1,6 +1,6 @@
 # Fun With Multiple APIs
 
-Up until this point, you've been able to gain a lot of experience working with a single API, rendering pretty much exactly what has been given to you from the back end. For this challenge, we will now need to access multiple back end routes. Correctly displaying the needed data will require you to take data retrieved from one fetch request and pass that data to a second route, which will return the content to populate the DOM.
+Up until this point, you've been able to gain a lot of experience working with a single API, rendering pretty much exactly what has been given to you from the back end. For this challenge, we will now need to access multiple back end routes. Correctly displaying the needed data will require you to take data retrieved from one fetch request and pass that data to a second route, which will return the content to populate the DOM. The second route ONLY accepts latitude and longitude as position data, which explains the need for the multiple calls.
 
 ## Objectives
 
