@@ -26,7 +26,7 @@ You will use the following endpoints to access the data.
 
 * `BASE_URL = https://weather-app-rails.herokuapp.com`
 * `LOCATION_ENDPOINT = /location/${location}`
-* `WEATHER_ENDPOINT = /weather?loc="${latitude}_${longitude}"`
+* `WEATHER_ENDPOINT = /weather?loc=${latitude}_${longitude}`
 
 You can view these example requests in your browser:
 
