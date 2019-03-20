@@ -16,7 +16,7 @@ like these will work:
 
 - The data you get back from this first endpoint will contain a latitude and longitude value. Send the latitude and longitude in a `GET` request to the second API endpoint to retrieve weather data.
 
-- Pick off data returned from the weather API and render the daily forecase provided.
+- Pick off data returned from the weather API and render the daily forecast provided.
 
 ## Getting started
 
