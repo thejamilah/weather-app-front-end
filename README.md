@@ -24,18 +24,22 @@ A barebones HTML scaffold has been provided for your in `index.html`. In `index.
 
 You will use the following endpoints to access the data.
 
-`BASE_URL = https://weather-app-rails.herokuapp.com`
-
+* `BASE_URL = https://weather-app-rails.herokuapp.com`
 * `LOCATION_ENDPOINT = /location/${location}`
-  * You can view these example requests in your browser:
-  * `https://weather-app-rails.herokuapp.com/location/98102`
-  * `https://weather-app-rails.herokuapp.com/location/Seattle%20WA`
-  * `https://weather-app-rails.herokuapp.com/location/1411%204th%20ave%20Seattle%20WA`
-
 * `WEATHER_ENDPOINT = /weather?loc="${latitude}_${longitude}"`
-  * Seattle: `https://weather-app-rails.herokuapp.com/weather?loc=47.6092787_-122.3376870302915`
-  * Hawaii: `https://weather-app-rails.herokuapp.com/weather?loc=19.8968_-155.5828`
-  * Antarctica: `https://weather-app-rails.herokuapp.com/weather?loc=-82.8628_135.0000`
+
+You can view these example requests in your browser:
+
+* Location endpoints:
+  * You can view these example requests in your browser:
+  * https://weather-app-rails.herokuapp.com/location/98102
+  * https://weather-app-rails.herokuapp.com/location/Seattle%20WA
+  * https://weather-app-rails.herokuapp.com/location/1411%204th%20ave%20Seattle%20WA
+
+* Weather endpoint:
+  * Seattle: https://weather-app-rails.herokuapp.com/weather?loc=47.6092787_-122.3376870302915
+  * Hawaii: https://weather-app-rails.herokuapp.com/weather?loc=19.8968_-155.5828
+  * Antarctica: https://weather-app-rails.herokuapp.com/weather?loc=-82.8628_135.0000
 
 Location and weather data are being provided by Google and Dark Sky. We have
 set up these routes as it is typically inadvisable to store API keys on the
