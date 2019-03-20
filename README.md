@@ -31,8 +31,9 @@ You will use the following endpoints to access the data.
 You can view these example requests in your browser:
 
 * Location endpoints:
-  * You can view these example requests in your browser:
   * https://weather-app-rails.herokuapp.com/location/98102
+  * https://weather-app-rails.herokuapp.com/location/la%20deli
+  * https://weather-app-rails.herokuapp.com/location/paseos
   * https://weather-app-rails.herokuapp.com/location/Seattle%20WA
   * https://weather-app-rails.herokuapp.com/location/1411%204th%20ave%20Seattle%20WA
 
